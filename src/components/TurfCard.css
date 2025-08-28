@@ -1,0 +1,14 @@
+.turf-card {
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.turf-card:hover {
+  transform: scale(1.02);
+}
+
+.turf-card img {
+  object-fit: cover;
+  height: 200px;
+}
